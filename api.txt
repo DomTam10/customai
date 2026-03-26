@@ -1,0 +1,15 @@
+--- LWG UNIT COSTS ---
+Worker: 50 gold
+Soldier: 80 gold
+Archer: 80 gold
+
+--- LWG BUILDING COSTS ---
+Barracks: 125 gold
+House: 100 gold
+Castle: 350 gold
+
+--- COMMON API COMMANDS ---
+scope.order("Train Soldier", [buildingObject])
+scope.order("AMove", unitsArray, {x: 100, y: 100})
+scope.getUnits({type: "Worker", owner: "me"})
+scope.getCurrentGameTimeInSec()
